@@ -22,7 +22,7 @@ defined custom validations for email, e.g. emails ending with @abcd.com
 		var deleteIconHTML = "";
 		if (theme.toLowerCase() == "Bootstrap".toLowerCase())
 		{
-			deleteIconHTML = '<a href="#" class="multiple_emails-close" title="Remove"><span class="glyphicon glyphicon-remove"></span></a>';
+			deleteIconHTML = '<a href="#" class="multiple_emails-close" title="Remove"><span class="fa fa-remove"></span></a>';
 		}
 		else if (theme.toLowerCase() == "SemanticUI".toLowerCase() || theme.toLowerCase() == "Semantic-UI".toLowerCase() || theme.toLowerCase() == "Semantic UI".toLowerCase()) {
 			deleteIconHTML = '<a href="#" class="multiple_emails-close" title="Remove"><i class="remove icon"></i></a>';
